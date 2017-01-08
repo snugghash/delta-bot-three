@@ -1,13 +1,14 @@
 # DB3 - Delta Bot 3 [![Build Status](https://travis-ci.org/MystK/delta-bot-three.svg?branch=master)](https://travis-ci.org/MystK/delta-bot-three)
 ## Summary
-The third rewrite of delta bot, created for reddit.com/r/changemyview. This bot will be written in NodeJS.
+The third rewrite of delta bot, created for [reddit.com/r/changemyview](https://www.reddit.com/r/changemyview). This bot will be written in NodeJS.
 
 ## Contributing
-* Any contributions are much appreciated
-* Please keep your commits specific to one task
+* Any contributions are much appreciated.
+* If there is an issue you plan to work on, please comment on it and we'll add the "in progress" label to prevent double work.
+* Please keep your commits specific to one task.
 * Put the issue number in your commit message if it is associated with one.
-* Commit messages should follow the [AngularJS](https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md#commit) commit guidelines
-* Before submitting any pull request, ensure that `npm test` passes with no errors
+* Commit messages should follow the [AngularJS](https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md#commit) commit guidelines.
+* Before submitting any pull request, ensure that `npm test` passes with no errors.
 
 ### How to build
 1. Download nvm. Mac/Linux: https://github.com/creationix/nvm Windows: https://github.com/coreybutler/nvm-windows/releases/download/1.1.1/nvm-setup.zip
@@ -20,7 +21,7 @@ The third rewrite of delta bot, created for reddit.com/r/changemyview. This bot 
 1. `npm install -g yarn` && `yarn`
 1. Run `yarn run start-debug` or `yarn start` and it should work
 
-#### credentials.json
+#### credentials.json (example)
 ````
 {
   "username": "DeltaBot3",
