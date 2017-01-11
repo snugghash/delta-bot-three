@@ -1,0 +1,2 @@
+echo $HOSTNAME
+echo '$HOSTNAME'

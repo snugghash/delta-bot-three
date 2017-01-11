@@ -1,1 +1,9 @@
 language: node_js
+deploy:
+  provider: script
+  script: bash deploy.sh
+  on:
+    branch: travis-ci-test
+env:
+  global:
+    secure: QHXGUTsnOgoaemZmnHkaMqlbRTGJBm7TTcNP/OYkg4ecsPX/7g13kXR3iExe2yOAxoJ3BSLVIeu/LU7MnTinfYPw2OqLMcdrlO2rJrEhfPGwTt0ja5kH6byNkVPj+lAEAxCImCy7q75R0IKbILtq4gHL8NcLBJpKwfHN48PpwKCRRP9iy+CbzlIaOmpgrOoGQG/jH2FF+lwQc5NczwpSNckLFkDUr1fJYN0mdBirmCr49VA7ZM9rwiQ/dkzkiWujJsn4Sl7G1Xfo0yibh1Rs5qC/BXUyGKCX5UOa23+UQ769BqrXqbmMQiUhltMRUANGgFQXmqZqnMOCSsKkKMcQHVlXllK/ILITrxkYE/pUjo8LUxcONZUDgPO5sNwN6VjOeUWB9rDBgtcat4I9wouVrK3wuMW2kuB5ULAyM9DU4JZpfFKaRTRoRqOw1Rd+0by6a/lkFBBdn2l9/fASkWlrax737MsMTydmuAWWDguD4vumjbw3X6g0s4h60sNzyZIUkAfZwwtioYlfhISxfhtqnJI8YiIkU/cATX0YkkWRwmlatXEgFgcXCGej0GJ5vjbJ/0wCQwfl7TgujDyaXkCf05zopty0jhhaGMVmxcOm/grOF3/GIhWevcdTrWZGTI8Q6TsByK3LoiT+TnqQhTKsSE9T5NSeLoeaLat3xb7GbNc=
