@@ -18,6 +18,6 @@
     "deltaLogSticky": "/u/<%= username %> (OP) has awarded at least one delta in this post.\n\nAll comments that earned deltas (from OP or other users) are listed [**here**](<%= linkToPost %>), in /r/<%= deltaLogSubreddit %>.\n\nPlease note that a change of view [doesn't necessarily mean a reversal](https://www.reddit.com/r/changemyview/wiki/index#wiki_what_is_a_.27view.27.3F), or that the conversation has ended.\n\n^[Delta System Explained](https://www.reddit.com/r/changemyview/wiki/deltasystem) ^| ^[Deltaboards](https://www.reddit.com/r/changemyview/wiki/deltaboards)",
     "deltaLogOPEntry": "* 1 delta from OP to /u/<%= awardedUsername %> for \"[<%= awardedText %>](<%= awardedLink %>)\"",
     "deltaLogOtherEntry": "* 1 delta from /u/<%= awardingUsername %> to /u/<%= awardedUsername %> for \"[<%= awardedText %>](<%= awardedLink %>)\"",
-    "deltaLogNoneYet": "None yet."
+    "deltaLogNoneYet": "* None yet."
   }
 }
