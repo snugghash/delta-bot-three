@@ -394,7 +394,7 @@ const truncateAwardedText = (text) => {
 const formatAwardedText = (text) => {
   /* eslint-disable no-useless-escape */
   const textWithoutQuotes = entities.decode(text) // html decode the text
-    .replace(/>[^]*?\n\n/g, '**[Quote]** ') // replace quotes
+    .replace(/>[^]*?\n\n/g, '[Quote] ') // replace quotes
     .replace(/\n+/g, ' ') // one or more newlines -> just one space
     .replace(/\[(.+)\]\(.+\)/g, '$1') // links like `[foo](URL)` -> just `foo` in log line
   /* eslint-enable no-useless-escape */
