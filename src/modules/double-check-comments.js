@@ -54,6 +54,8 @@ class CheckUnseenComments extends DeltaBotModule {
           if (!dbReply) await verifyThenAward(comment)
           else {
             const oldHiddenParems = parseHiddenParams(dbReply.body)
+            // TODO make it so it doens't drop an error into the console when undefined
+            console.log(`Is it defined ${oldHiddenParems.issues}`)
             const oldIssueCount = Object.keys(oldHiddenParems.issues).length
             const {
               hiddenParams: newHiddenParams,

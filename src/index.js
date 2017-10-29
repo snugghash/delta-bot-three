@@ -497,6 +497,7 @@ const findOrMakeStickiedComment = async (linkID, comment, deltaLogPost) => {
   if (!wasDeltaMadeByAuthor(comment)) {
     return true
   }
+  // TODO posible insert solution to the multiple stickied comments problem here
   const stickiedCommentID = await makeComment({
     sticky: true,
     content: {

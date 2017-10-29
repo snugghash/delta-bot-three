@@ -227,8 +227,10 @@ const getNewCommentsBeforeCommentId = async ({
   let continuousComments
   let continueOn = true
   while (continueOn) {
+    // TODO not working. Got it, it's intended.
     console.log(`In loop for ${commentId}`)
     commentIdToUse = _.get(continuousComments, '[0].name') || commentId
+    //console.log(`asdfnasdnf ${commentIdToUse}`)
     continuousComments = await subredditDriver.getNewComments({ before: commentIdToUse })
     if (continuousComments.length) {
       _.forEachRight(continuousComments, (comment) => {
